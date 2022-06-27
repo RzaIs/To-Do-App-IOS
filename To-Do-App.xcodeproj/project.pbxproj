@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329229A02869CE0C00EDBAE5 /* ToDoTitileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292299F2869CE0C00EDBAE5 /* ToDoTitileViewCell.swift */; };
+		329229AF2869DA0C00EDBAE5 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 329229A32869DA0C00EDBAE5 /* SourceSansPro-Light.ttf */; };
+		329229B12869DA0C00EDBAE5 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 329229A52869DA0C00EDBAE5 /* SourceSansPro-Regular.ttf */; };
+		329229B32869DA0C00EDBAE5 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 329229A72869DA0C00EDBAE5 /* SourceSansPro-Black.ttf */; };
+		329229B42869DA0C00EDBAE5 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 329229A82869DA0C00EDBAE5 /* SourceSansPro-ExtraLight.ttf */; };
+		329229B52869DA0C00EDBAE5 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 329229A92869DA0C00EDBAE5 /* SourceSansPro-SemiBold.ttf */; };
+		329229B82869DA0C00EDBAE5 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 329229AC2869DA0C00EDBAE5 /* SourceSansPro-Bold.ttf */; };
+		329229BB2869DBD300EDBAE5 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329229BA2869DBD300EDBAE5 /* Font.swift */; };
+		3293A4A22869138500712990 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3293A4A02869138500712990 /* Task+CoreDataClass.swift */; };
+		3293A4A32869138500712990 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3293A4A12869138500712990 /* Task+CoreDataProperties.swift */; };
+		3293A4A6286913B600712990 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3293A4A5286913B600712990 /* TaskController.swift */; };
+		3293A4A82869144800712990 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3293A4A72869144800712990 /* TaskModel.swift */; };
+		3293A4AA286919C100712990 /* ToDoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3293A4A9286919C100712990 /* ToDoViewCell.swift */; };
 		3296AD262868B1EB006DB721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD252868B1EB006DB721 /* AppDelegate.swift */; };
 		3296AD282868B1EB006DB721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD272868B1EB006DB721 /* SceneDelegate.swift */; };
 		3296AD2A2868B1EB006DB721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD292868B1EB006DB721 /* ViewController.swift */; };
@@ -14,9 +27,32 @@
 		3296AD302868B1EB006DB721 /* To_Do_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD2E2868B1EB006DB721 /* To_Do_App.xcdatamodeld */; };
 		3296AD322868B1ED006DB721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3296AD312868B1ED006DB721 /* Assets.xcassets */; };
 		3296AD352868B1ED006DB721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3296AD332868B1ED006DB721 /* LaunchScreen.storyboard */; };
+		3296AD3E2868C299006DB721 /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD3D2868C299006DB721 /* AddTaskVC.swift */; };
+		3296AD412868C32E006DB721 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3296AD402868C32E006DB721 /* SnapKit */; };
+		3296AD432868C6C0006DB721 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD422868C6C0006DB721 /* TopView.swift */; };
+		3296AD452868C9E1006DB721 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD442868C9E1006DB721 /* UIColorHex.swift */; };
+		3296AD482868DD8F006DB721 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 3296AD472868DD8F006DB721 /* RxBlocking */; };
+		3296AD4A2868DD8F006DB721 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3296AD492868DD8F006DB721 /* RxCocoa */; };
+		3296AD4C2868DD8F006DB721 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 3296AD4B2868DD8F006DB721 /* RxRelay */; };
+		3296AD4E2868DD8F006DB721 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3296AD4D2868DD8F006DB721 /* RxSwift */; };
+		3296AD512868E131006DB721 /* ToDoTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD502868E131006DB721 /* ToDoTable.swift */; };
+		3296AD532868E401006DB721 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296AD522868E401006DB721 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3292299F2869CE0C00EDBAE5 /* ToDoTitileViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTitileViewCell.swift; sourceTree = "<group>"; };
+		329229A32869DA0C00EDBAE5 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		329229A52869DA0C00EDBAE5 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		329229A72869DA0C00EDBAE5 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		329229A82869DA0C00EDBAE5 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		329229A92869DA0C00EDBAE5 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		329229AC2869DA0C00EDBAE5 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		329229BA2869DBD300EDBAE5 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		3293A4A02869138500712990 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataClass.swift"; path = "To-Do-App/CoreDataClassProps/Task+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3293A4A12869138500712990 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "To-Do-App/CoreDataClassProps/Task+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3293A4A5286913B600712990 /* TaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
+		3293A4A72869144800712990 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		3293A4A9286919C100712990 /* ToDoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewCell.swift; sourceTree = "<group>"; };
 		3296AD222868B1EB006DB721 /* To-Do-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3296AD252868B1EB006DB721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3296AD272868B1EB006DB721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +62,11 @@
 		3296AD312868B1ED006DB721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3296AD342868B1ED006DB721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3296AD362868B1ED006DB721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3296AD3D2868C299006DB721 /* AddTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
+		3296AD422868C6C0006DB721 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		3296AD442868C9E1006DB721 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		3296AD502868E131006DB721 /* ToDoTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTable.swift; sourceTree = "<group>"; };
+		3296AD522868E401006DB721 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +74,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3296AD4A2868DD8F006DB721 /* RxCocoa in Frameworks */,
+				3296AD412868C32E006DB721 /* SnapKit in Frameworks */,
+				3296AD4E2868DD8F006DB721 /* RxSwift in Frameworks */,
+				3296AD4C2868DD8F006DB721 /* RxRelay in Frameworks */,
+				3296AD482868DD8F006DB721 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		329229A12869D9C900EDBAE5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				329229A72869DA0C00EDBAE5 /* SourceSansPro-Black.ttf */,
+				329229AC2869DA0C00EDBAE5 /* SourceSansPro-Bold.ttf */,
+				329229A82869DA0C00EDBAE5 /* SourceSansPro-ExtraLight.ttf */,
+				329229A32869DA0C00EDBAE5 /* SourceSansPro-Light.ttf */,
+				329229A52869DA0C00EDBAE5 /* SourceSansPro-Regular.ttf */,
+				329229A92869DA0C00EDBAE5 /* SourceSansPro-SemiBold.ttf */,
+				329229BA2869DBD300EDBAE5 /* Font.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3293A4A42869139300712990 /* CoreDataClassProps */ = {
+			isa = PBXGroup;
+			children = (
+				3293A4A02869138500712990 /* Task+CoreDataClass.swift */,
+				3293A4A12869138500712990 /* Task+CoreDataProperties.swift */,
+				3293A4A5286913B600712990 /* TaskController.swift */,
+				3293A4A72869144800712990 /* TaskModel.swift */,
+			);
+			path = CoreDataClassProps;
+			sourceTree = "<group>";
+		};
 		3296AD192868B1EB006DB721 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +129,15 @@
 		3296AD242868B1EB006DB721 /* To-Do-App */ = {
 			isa = PBXGroup;
 			children = (
+				329229A12869D9C900EDBAE5 /* Font */,
+				3293A4A42869139300712990 /* CoreDataClassProps */,
+				3296AD4F2868E0D4006DB721 /* ToDosView */,
+				3296AD3C2868C263006DB721 /* AddTaskView */,
 				3296AD252868B1EB006DB721 /* AppDelegate.swift */,
 				3296AD272868B1EB006DB721 /* SceneDelegate.swift */,
 				3296AD292868B1EB006DB721 /* ViewController.swift */,
+				3296AD442868C9E1006DB721 /* UIColorHex.swift */,
+				3296AD522868E401006DB721 /* Theme.swift */,
 				3296AD2B2868B1EB006DB721 /* Main.storyboard */,
 				3296AD312868B1ED006DB721 /* Assets.xcassets */,
 				3296AD332868B1ED006DB721 /* LaunchScreen.storyboard */,
@@ -68,6 +145,25 @@
 				3296AD2E2868B1EB006DB721 /* To_Do_App.xcdatamodeld */,
 			);
 			path = "To-Do-App";
+			sourceTree = "<group>";
+		};
+		3296AD3C2868C263006DB721 /* AddTaskView */ = {
+			isa = PBXGroup;
+			children = (
+				3296AD3D2868C299006DB721 /* AddTaskVC.swift */,
+				3296AD422868C6C0006DB721 /* TopView.swift */,
+			);
+			path = AddTaskView;
+			sourceTree = "<group>";
+		};
+		3296AD4F2868E0D4006DB721 /* ToDosView */ = {
+			isa = PBXGroup;
+			children = (
+				3296AD502868E131006DB721 /* ToDoTable.swift */,
+				3293A4A9286919C100712990 /* ToDoViewCell.swift */,
+				3292299F2869CE0C00EDBAE5 /* ToDoTitileViewCell.swift */,
+			);
+			path = ToDosView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +182,13 @@
 			dependencies = (
 			);
 			name = "To-Do-App";
+			packageProductDependencies = (
+				3296AD402868C32E006DB721 /* SnapKit */,
+				3296AD472868DD8F006DB721 /* RxBlocking */,
+				3296AD492868DD8F006DB721 /* RxCocoa */,
+				3296AD4B2868DD8F006DB721 /* RxRelay */,
+				3296AD4D2868DD8F006DB721 /* RxSwift */,
+			);
 			productName = "To-Do-App";
 			productReference = 3296AD222868B1EB006DB721 /* To-Do-App.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +217,10 @@
 				Base,
 			);
 			mainGroup = 3296AD192868B1EB006DB721;
+			packageReferences = (
+				3296AD3F2868C32E006DB721 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3296AD462868DD8F006DB721 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 3296AD232868B1EB006DB721 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +235,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329229B42869DA0C00EDBAE5 /* SourceSansPro-ExtraLight.ttf in Resources */,
 				3296AD352868B1ED006DB721 /* LaunchScreen.storyboard in Resources */,
 				3296AD322868B1ED006DB721 /* Assets.xcassets in Resources */,
+				329229B52869DA0C00EDBAE5 /* SourceSansPro-SemiBold.ttf in Resources */,
+				329229B82869DA0C00EDBAE5 /* SourceSansPro-Bold.ttf in Resources */,
+				329229B12869DA0C00EDBAE5 /* SourceSansPro-Regular.ttf in Resources */,
+				329229AF2869DA0C00EDBAE5 /* SourceSansPro-Light.ttf in Resources */,
+				329229B32869DA0C00EDBAE5 /* SourceSansPro-Black.ttf in Resources */,
 				3296AD2D2868B1EB006DB721 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +254,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3293A4AA286919C100712990 /* ToDoViewCell.swift in Sources */,
+				3296AD532868E401006DB721 /* Theme.swift in Sources */,
+				3296AD512868E131006DB721 /* ToDoTable.swift in Sources */,
+				3296AD452868C9E1006DB721 /* UIColorHex.swift in Sources */,
 				3296AD2A2868B1EB006DB721 /* ViewController.swift in Sources */,
+				3293A4A32869138500712990 /* Task+CoreDataProperties.swift in Sources */,
 				3296AD262868B1EB006DB721 /* AppDelegate.swift in Sources */,
+				3296AD3E2868C299006DB721 /* AddTaskVC.swift in Sources */,
+				3293A4A22869138500712990 /* Task+CoreDataClass.swift in Sources */,
 				3296AD282868B1EB006DB721 /* SceneDelegate.swift in Sources */,
+				3296AD432868C6C0006DB721 /* TopView.swift in Sources */,
+				3293A4A82869144800712990 /* TaskModel.swift in Sources */,
+				329229BB2869DBD300EDBAE5 /* Font.swift in Sources */,
+				3293A4A6286913B600712990 /* TaskController.swift in Sources */,
+				329229A02869CE0C00EDBAE5 /* ToDoTitileViewCell.swift in Sources */,
 				3296AD302868B1EB006DB721 /* To_Do_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +485,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3296AD3F2868C32E006DB721 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3296AD462868DD8F006DB721 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3296AD402868C32E006DB721 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3296AD3F2868C32E006DB721 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		3296AD472868DD8F006DB721 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3296AD462868DD8F006DB721 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		3296AD492868DD8F006DB721 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3296AD462868DD8F006DB721 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		3296AD4B2868DD8F006DB721 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3296AD462868DD8F006DB721 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		3296AD4D2868DD8F006DB721 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3296AD462868DD8F006DB721 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3296AD2E2868B1EB006DB721 /* To_Do_App.xcdatamodeld */ = {

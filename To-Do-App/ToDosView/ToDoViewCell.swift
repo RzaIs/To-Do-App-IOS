@@ -25,6 +25,7 @@ class ToDoViewCell: UITableViewCell {
     private lazy var nameLabel: UILabel = {
         let label = UILabel()
         label.textColor = UIColor(hexaRGB: "#737373")
+        label.numberOfLines = 0
         self.addSubview(label)
         return label
     }()

@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 
 enum TaskCell {
-    case model(data: TaskModel), todayTitle, tomorrowTitle
+    case todayCell(data: TaskModel), tomorrowCell(data: TaskModel), todayTitle, tomorrowTitle
 }
 
 class ToDoTable: UITableView {
@@ -40,12 +40,12 @@ class ToDoTable: UITableView {
         
         taskCells.append(.todayTitle)
         sortedTasks[0].forEach { data in
-            taskCells.append(.model(data: data))
+            taskCells.append(.todayCell(data: data))
         }
         
         taskCells.append(.tomorrowTitle)
         sortedTasks[1].forEach { data in
-            taskCells.append(.model(data: data))
+            taskCells.append(.tomorrowCell(data: data))
         }
         
         ThemeController.instance.themeRelay
@@ -68,12 +68,12 @@ class ToDoTable: UITableView {
         
         taskCells.append(.todayTitle)
         sortedTasks[0].forEach { data in
-            taskCells.append(.model(data: data))
+            taskCells.append(.todayCell(data: data))
         }
         
         taskCells.append(.tomorrowTitle)
         sortedTasks[1].forEach { data in
-            taskCells.append(.model(data: data))
+            taskCells.append(.tomorrowCell(data: data))
         }
         super.reloadData()
     }
@@ -89,13 +89,16 @@ extension ToDoTable: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         switch taskCells[indexPath.row] {
-        case .model(let data):
-            let cell: ToDoViewCell!
-            if data.today {
-                cell = (tableView.dequeueReusableCell(withIdentifier: TODAY_TASK) as! ToDoViewCell)
-            } else {
-                cell = (tableView.dequeueReusableCell(withIdentifier: TOMORROW_TASK) as! ToDoViewCell)
+        case .todayCell(let data):
+            let cell = tableView.dequeueReusableCell(withIdentifier: TODAY_TASK) as! ToDoViewCell
+
+            cell.setupView(taskData: data, theme: self.currentTheme) { [weak self] in
+                self?.reloadData()
             }
+            cell.selectionStyle = .none
+            return  cell
+        case .tomorrowCell(let data):
+            let cell = tableView.dequeueReusableCell(withIdentifier: TOMORROW_TASK) as! ToDoViewCell
             
             cell.setupView(taskData: data, theme: self.currentTheme) { [weak self] in
                 self?.reloadData()
